@@ -37,16 +37,22 @@ KOSIS - Korean Statistical Information Service: Demographic Population Distribut
 ### 2. Anomaly Detection and Policy Analysis:
 
 In order to detect the anomaly days with infected people, we conducted cluster-based model anomaly detection and it performed the best in this situation with unlabeled data. After that, we think we are all consistent influence factors. Policy is one of the important factors that play an important role in these anomaly days so we dive deep into the policy.
+
+![Anomaly_Detection_results](https://github.com/CindyXin97/COVID-19_Research_Project/blob/master/Image/Anomaly_Detection_results.png)
 ### 3. Susceptible Infected Recovered (SIR) Analysis:
 
 The SIR model of infection describes time dynamics of an infectious disease spreading through a homogenous closed population. The population is divided into three categories: Susceptible S, Infective I, or Recovered/Dead R. We simplify R for now and include dead people as recovered. 
 
 The math behind it was like below:
+![SIR_ Model_Math](https://github.com/CindyXin97/COVID-19_Research_Project/blob/master/Image/SIR_%20Model_Math.png)
 
+![SIR_Result](https://github.com/CindyXin97/COVID-19_Research_Project/blob/master/Image/SIR_Result.png)
 
 ### 4. Time Series Model and Regression :
 
 MLP (Multi-layer Perceptron regressor), Prophet Model, ARIMA
+
+![ARIMA](https://github.com/CindyXin97/COVID-19_Research_Project/blob/master/Image/ARIMA.png)
 
 ### 5. Clustering 
 
