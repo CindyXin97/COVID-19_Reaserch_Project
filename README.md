@@ -33,30 +33,30 @@ Region: Statistics of public infrastructure and age & educational structures gro
 KOSIS - Korean Statistical Information Service: Demographic Population Distribution in South Korea (as of 2020)
 
 # Method
-## 1. EDA
-## 2. Anomaly Detection and Policy Analysis:
+### 1. EDA
+### 2. Anomaly Detection and Policy Analysis:
 
 In order to detect the anomaly days with infected people, we conducted cluster-based model anomaly detection and it performed the best in this situation with unlabeled data. After that, we think we are all consistent influence factors. Policy is one of the important factors that play an important role in these anomaly days so we dive deep into the policy.
-## 3. Susceptible Infected Recovered (SIR) Analysis:
+### 3. Susceptible Infected Recovered (SIR) Analysis:
 
 The SIR model of infection describes time dynamics of an infectious disease spreading through a homogenous closed population. The population is divided into three categories: Susceptible S, Infective I, or Recovered/Dead R. We simplify R for now and include dead people as recovered. 
 
 The math behind it was like below:
 
 
-## 4. Time Series Model and Regression :
+### 4. Time Series Model and Regression :
 
 MLP (Multi-layer Perceptron regressor), Prophet Model, ARIMA
 
-## 5. Clustering 
+### 5. Clustering 
 
 Clustering Algorithm is used to find provinces with similar situations. We tried Kmeans, Gaussian Mixture and used silhouette score as a guideline to pick the number of clusters. 
 
-## 6. Classification Model 
+### 6. Classification Model 
 
 We used CART Tree, random forest to do classifications and analysed the feature importance. 
 
-## Results 
+### Results 
 
 ## Contributors (Based on name letter order)
 Di Xin 
