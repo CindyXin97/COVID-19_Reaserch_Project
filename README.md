@@ -44,6 +44,7 @@ In order to detect the anomaly days with infected people, we conducted cluster-b
 The SIR model of infection describes time dynamics of an infectious disease spreading through a homogenous closed population. The population is divided into three categories: Susceptible S, Infective I, or Recovered/Dead R. We simplify R for now and include dead people as recovered. 
 
 The math behind it was like below:
+
 ![SIR_ Model_Math](https://github.com/CindyXin97/COVID-19_Research_Project/blob/master/Image/SIR_%20Model_Math.png)
 
 ![SIR_Result](https://github.com/CindyXin97/COVID-19_Research_Project/blob/master/Image/SIR_Result.png)
