@@ -65,6 +65,9 @@ We used CART Tree, random forest to do classifications and analysed the feature 
 
 ### Results 
 
+Based on clustering methods, we divided cities in Korea into 3 infective levels. And we conducted  three time-series model related MLP, Prophet, ARIMA to predict the number of existing COVID-19 infected patients for each day, we found that this pandemic will end on May 17th, 2020 as ARIMA performs the best. By taking 'elementary_school_count', 'kindergarten_count', 'university_count',  'academy_ratio', 'elderly_population_ratio',  'vehicle', 'nursing_home_count', 'elderly_alone_ratio' and 'search trend' as features, we conducted classification model with decision tree and random forest. Finally, we identified nursing home counts, academy ration, vehicle number and search trend really influence the performance of control in Korea. In conclusion, starting emergency diagnosis for the elderly,  closing the schools, limiting people’s outdoor activities and raising people’s awareness are feasible measures  in Korea which other countries can learn from.  
+
+
 ## Contributors (Based on name letter order)
 Di Xin 
 Jianan Gong
