@@ -69,6 +69,6 @@ Based on clustering methods, we divided cities in Korea into 3 infective levels.
 
 
 ## Contributors (Based on name letter order)
-Di Xin 
-Jianan Gong
-Zheyuan Zhang
+Di Xin (dx489@nyu.edu)
+Jianan Gong (jg6193@nyu.edu)
+Zheyuan Zhang (zz2498@nyu.edu)
