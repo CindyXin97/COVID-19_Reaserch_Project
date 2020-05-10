@@ -1,4 +1,4 @@
-# Which Feasible Measures does other countries can learn from Korea to Alleviate COVID-19? 
+# Which Feasible Measures Can Other Countries Learn from Korea to Alleviate COVID-19? 
 
 This project is to analyze the different urban groups responding to COVID and  the key factors impact the COVID_19 in Korea. We used clustering techniques to define the cities of it's infecting level and other related COVID-19 impacted areas. By combing the 3 time series related models and Susceptible Infected Recovered (SIR) Analysis to predict the future trend of COVID-19 and take the results of one of the factors. Meanwhile, we built the cluster-based anomaly detection model and identified the anomalous date, then we've found the relationship between policy and these anomalous date. By conducting the classification techniques, we came to our results of what are some effective meausres that other countries can learn from Korea.
 
